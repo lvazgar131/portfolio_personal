@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
     <style>
 
         body{
@@ -71,7 +73,7 @@
         </nav>
         <br>
         <div class="container-fluid align-items-center text-center d-flex flex-column mt-5">
-            <img src="../static/images/walter.png" alt="mi_imagen" width="360" height="480" class="img-fluid rounded-circle mt-4" style="width: 350px; height: 350px; border: 4px solid rgb(243, 212, 145);">
+            <img src="../static/images/walter.png" alt="mi_imagen" class="img-fluid rounded-circle mt-4" style="width: 350px; height: 350px; border: 4px solid rgb(243, 212, 145);">
             <h1 class="mt-3" style="font-size: 40px;">Hola, soy Lucas Vázquez</h1>
             <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:20px;">Desarrollo de aplicaciones web y grado en grado superior</p>
         </div>
@@ -94,9 +96,9 @@
             <h2> Mi experiencia</h2>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card card-hover">
+                    <div class="card card-hover h-100">
                         <div class="card-body">
-                            <img src="../static/images/backend.png" alt="backend" class="img-fluid rounded-circle" style="max-width: 150px; height: 100px;">
+                            <img src="../static/images/backend.png" alt="backend" class="img-fluid rounded-circle mb-3" style="width: 125px; height: 125px;">
                             <h5 class="card-title">Desarrollador web (backend)</h5>
                             <p class="card-text">Diseño y desarrollo de aplicaciones backend robustas y escalables utilizando Python, Django y Flask. Implementación de APIs REST, autenticación, lógica de negocio y conexión con bases de datos relacionales y no relacionales, siguiendo buenas prácticas y arquitectura limpia. </p>
                             <span class="badge bg-dark">Python</span>
@@ -107,8 +109,9 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card bg-dark text-white card-hover">
+                    <div class="card bg-dark text-white card-hover h-100">
                         <div class="card-body">
+                            <img src="../static/images/devops.png" alt="devops" class="img-fluid rounded-circle mb-3" style="width: 125px; height: 125px;">
                             <h5 class="card-title">DevOps y contenedores</h5>
                             <p class="card-text">Experiencia en la creación y gestión de entornos de desarrollo y producción mediante Docker, facilitando despliegues consistentes y escalables. Automatización de procesos, manejo de configuraciones y optimización del rendimiento de aplicaciones backend.</p>
                             <span class="badge bg-white text-dark">Docker</span>
@@ -119,8 +122,9 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card card-hover">
+                    <div class="card card-hover h-100">
                         <div class="card-body">
+                            <img src="../static/images/aws.png" alt="aws" class="img-fluid rounded-circle mb-3" style="width: 125px; height: 125px;">
                             <h5 class="card-title">Cloud y AWS</h5>
                             <p class="card-text">Despliegue y administración de aplicaciones backend en la nube usando AWS. Configuración de servicios como EC2, S3, RDS y IAM, asegurando disponibilidad, seguridad y escalabilidad para aplicaciones modernas.</p>
                             <span class="badge bg-dark">AWS</span>
@@ -133,9 +137,107 @@
             </div>
         </div>
     </section>
-
+    <br>
+    <br>
     <section id="proyectos">
+        <div class="container-fluid align-items-center text-center">
+            <h2 class="mt-5">Proyectos</h2>
+            <p>Mis proyectos más recientes...</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="../static/images/portfolio_imagen.png" alt="portfolio" class="img-fluid rounded-circle" style="width: 200px; height: 200px;">
+                    <div class="card card-hover mt-3" style="background-color: antiquewhite;">
+                        <h5 class="card-title mt-3">Mi portfolio personal</h5>
+                        <div class="card-body">
+                            <p>Aquí tiene el enlace para acceder al repositorio...</p>
+                            <a href="https://github.com/lvazgar131/portfolio_personal.git">
+                                <div class="badge bg-dark">
+                                    <span class="bi bi-github">Enlace al repositorio</span>
+                                </div>
+                            </a>         
+                        </div>                        
+                    </div>
+                </div>
 
+                <div class="col-md-4">
+                    <img src="../static/images/django.png" alt="portfolio" class="img-fluid rounded-circle" style="width: 200px; height: 200px;">
+                    <div class="card card-hover mt-3" style="background-color: antiquewhite;">
+                        <h5 class="card-title mt-3">Mi proyecto django</h5>
+                        <div class="card-body">
+                            <p>Aquí tiene el enlace para acceder al repositorio...</p>
+                            <a href="https://github.com/lvazgar131DAW2/gestion_productos-.git">
+                                <div class="badge bg-dark">
+                                    <span class="bi bi-github">Enlace al repositorio</span>
+                                </div>
+                            </a>         
+                        </div>                        
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="../static/images/js_imagen.png" alt="portfolio" class="img-fluid rounded-circle" style="width: 200px; height: 200px;">
+                    <div class="card card-hover mt-3" style="background-color: antiquewhite;">
+                        <h5 class="card-title mt-3">Mi proyecto JS</h5>
+                        <div class="card-body">
+                            <p>Aquí tiene el enlace para acceder al repositorio...</p>
+                            <a href="https://github.com/lvazgar131/portfolio_personal.git">
+                                <div class="badge bg-dark">
+                                    <span class="bi bi-github">Enlace al repositorio</span>
+                                </div>
+                            </a>         
+                        </div>                        
+                    </div>
+                </div>
+
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <img src="../static/images/portfolio_imagen.png" alt="portfolio" class="img-fluid rounded-circle" style="width: 200px; height: 200px;">
+                    <div class="card card-hover mt-3" style="background-color: antiquewhite;">
+                        <h5 class="card-title mt-3">Mi portfolio personal</h5>
+                        <div class="card-body">
+                            <p>Aquí tiene el enlace para acceder al repositorio...</p>
+                            <a href="https://github.com/lvazgar131/portfolio_personal.git">
+                                <div class="badge bg-dark">
+                                    <span class="bi bi-github">Enlace al repositorio</span>
+                                </div>
+                            </a>         
+                        </div>                        
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="../static/images/django.png" alt="portfolio" class="img-fluid rounded-circle" style="width: 200px; height: 200px;">
+                    <div class="card card-hover mt-3" style="background-color: antiquewhite;">
+                        <h5 class="card-title mt-3">Mi proyecto django</h5>
+                        <div class="card-body">
+                            <p>Aquí tiene el enlace para acceder al repositorio...</p>
+                            <a href="https://github.com/lvazgar131DAW2/gestion_productos-.git">
+                                <div class="badge bg-dark">
+                                    <span class="bi bi-github">Enlace al repositorio</span>
+                                </div>
+                            </a>         
+                        </div>                        
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="../static/images/js_imagen.png" alt="portfolio" class="img-fluid rounded-circle" style="width: 200px; height: 200px;">
+                    <div class="card card-hover mt-3" style="background-color: antiquewhite;">
+                        <h5 class="card-title mt-3">Mi proyecto JS</h5>
+                        <div class="card-body">
+                            <p>Aquí tiene el enlace para acceder al repositorio...</p>
+                            <a href="https://github.com/lvazgar131/portfolio_personal.git">
+                                <div class="badge bg-dark">
+                                    <span class="bi bi-github">Enlace al repositorio</span>
+                                </div>
+                            </a>         
+                        </div>                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </section>
 
     <section id="articulos">
