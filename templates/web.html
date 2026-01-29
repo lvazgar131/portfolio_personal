@@ -37,6 +37,11 @@
             transform: translateY(-10px);
             box-shadow: 0 10px 25px rgba(0,0,0,0.2);
         }
+
+        .lista:nth-child(even){
+            background-color: gray;
+        }
+        
     </style>
 
 </head>
@@ -62,10 +67,10 @@
                     <a class="nav-link active" href="#articulos">Artículos</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#testimonios">Testimonios</a>
+                <a class="nav-link active" href="#testimonios">Testimonios</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#contacto">Contacto</a>
+                <a class="nav-link active" href="#contacto">Contacto</a>
                 </li>
             </ul>
             </div>
@@ -144,8 +149,8 @@
             <h2 class="mt-5">Proyectos</h2>
             <p>Mis proyectos más recientes...</p>
             <div class="row">
-                <div class="col-md-4">
-                    <img src="../static/images/portfolio_imagen.png" alt="portfolio" class="img-fluid rounded-circle" style="width: 200px; height: 200px;">
+                <div class="col-md-4 col-12 col-sm-6">
+                    <img src="../static/images/portfolio_imagen.png" alt="portfolio" class="img-fluid rounded-circle" style="width: 125px; height: 125px;">
                     <div class="card card-hover mt-3" style="background-color: antiquewhite;">
                         <h5 class="card-title mt-3">Mi portfolio personal</h5>
                         <div class="card-body">
@@ -159,9 +164,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
-                    <img src="../static/images/django.png" alt="portfolio" class="img-fluid rounded-circle" style="width: 200px; height: 200px;">
-                    <div class="card card-hover mt-3" style="background-color: antiquewhite;">
+                <div class="col-md-4 col-12 col-sm-6">
+                    <img src="../static/images/django.png" alt="portfolio" class="img-fluid rounded-circle" style="width: 125px; height: 125px;">
+                    <div class="card card-hover mt-3" style="background-color: rgb(29, 28, 28); color:white;">
                         <h5 class="card-title mt-3">Mi proyecto django</h5>
                         <div class="card-body">
                             <p>Aquí tiene el enlace para acceder al repositorio...</p>
@@ -174,8 +179,8 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
-                    <img src="../static/images/js_imagen.png" alt="portfolio" class="img-fluid rounded-circle" style="width: 200px; height: 200px;">
+                <div class="col-md-4 col-12 col-sm-6">
+                    <img src="../static/images/js_imagen.png" alt="portfolio" class="img-fluid rounded-circle" style="width: 125px; height: 125px;">
                     <div class="card card-hover mt-3" style="background-color: antiquewhite;">
                         <h5 class="card-title mt-3">Mi proyecto JS</h5>
                         <div class="card-body">
@@ -189,15 +194,14 @@
                     </div>
                 </div>
 
-            </div>
-            <div class="row mt-5">
-                <div class="col-md-4">
-                    <img src="../static/images/portfolio_imagen.png" alt="portfolio" class="img-fluid rounded-circle" style="width: 200px; height: 200px;">
+            
+                <div class="col-md-4 col-sm-6 col-12 mt-4">
+                    <img src="../static/images/devops_imagen.png" alt="portfolio" class="img-fluid rounded-circle" style="width: 125px; height: 125px;">
                     <div class="card card-hover mt-3" style="background-color: antiquewhite;">
-                        <h5 class="card-title mt-3">Mi portfolio personal</h5>
+                        <h5 class="card-title mt-3">Mi proyecto DevOps</h5>
                         <div class="card-body">
                             <p>Aquí tiene el enlace para acceder al repositorio...</p>
-                            <a href="https://github.com/lvazgar131/portfolio_personal.git">
+                            <a href="https://github.com/lvazgar131DAW2/devops_p01_despliegue.git">
                                 <div class="badge bg-dark">
                                     <span class="bi bi-github">Enlace al repositorio</span>
                                 </div>
@@ -206,13 +210,13 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
-                    <img src="../static/images/django.png" alt="portfolio" class="img-fluid rounded-circle" style="width: 200px; height: 200px;">
-                    <div class="card card-hover mt-3" style="background-color: antiquewhite;">
-                        <h5 class="card-title mt-3">Mi proyecto django</h5>
+                <div class="col-md-4 col-sm-6 col-12 mt-4">
+                    <img src="../static/images/flask.png" alt="portfolio" class="img-fluid rounded-circle" style="width: 125px; height: 125px;">
+                    <div class="card card-hover mt-3" style="background-color: rgb(29, 28, 28); color:white;">
+                        <h5 class="card-title mt-3">Mi proyecto Flask</h5>
                         <div class="card-body">
                             <p>Aquí tiene el enlace para acceder al repositorio...</p>
-                            <a href="https://github.com/lvazgar131DAW2/gestion_productos-.git">
+                            <a href="https://github.com/daw-dwes-25-26/examen-tema-3-flask-python-lvazgar131DAW2.git">
                                 <div class="badge bg-dark">
                                     <span class="bi bi-github">Enlace al repositorio</span>
                                 </div>
@@ -221,13 +225,13 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
-                    <img src="../static/images/js_imagen.png" alt="portfolio" class="img-fluid rounded-circle" style="width: 200px; height: 200px;">
+                <div class="col-md-4 col-sm-6 col-12 mt-4">
+                    <img src="../static/images/videojuegos.png" alt="portfolio" class="img-fluid rounded-circle" style="width: 125px; height: 125px;">
                     <div class="card card-hover mt-3" style="background-color: antiquewhite;">
-                        <h5 class="card-title mt-3">Mi proyecto JS</h5>
+                        <h5 class="card-title mt-3">Mi primera app Flask | Videojuegos</h5>
                         <div class="card-body">
                             <p>Aquí tiene el enlace para acceder al repositorio...</p>
-                            <a href="https://github.com/lvazgar131/portfolio_personal.git">
+                            <a href="https://github.com/lvazgar131DAW2/app_videojuegos.git">
                                 <div class="badge bg-dark">
                                     <span class="bi bi-github">Enlace al repositorio</span>
                                 </div>
@@ -235,13 +239,29 @@
                         </div>                        
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
 
-    <section id="articulos">
+    <br>
+    <br>
 
+    <section id="articulos">
+        <div class="container-fluid align-items-center text-center">
+            <h2 class="mt-4">Artículos</h2>
+            <div class="card mt-5" style="background-color: antiquewhite;">
+                <h5 class="card-title text-start mt-3 ms-2">Más recientes...</h5>
+                <div class="card-body">
+                    <ul class="list-group text-start lista">
+                        <li class="list-group-item"><a href="https://www.djangoproject.com/">Descubre más sobre Django</a></li>
+                        <li class="list-group-item"><a href="https://developer.mozilla.org/es/docs/Web/JavaScript">Descubre más sobre JS</a></li>
+                        <li class="list-group-item"><a href="https://flask.palletsprojects.com/en/stable/">Descubre más sobre Flask</a></li>
+                        <li class="list-group-item"><a href="https://www.docker.com/">Descubre más sobre Docker</a></li>
+                        <li class="list-group-item"><a href="https://github.com/lvazgar131">Descubre más sobre mí</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="testimonios">
