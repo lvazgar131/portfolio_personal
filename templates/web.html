@@ -41,6 +41,26 @@
         .lista:nth-child(even){
             background-color: gray;
         }
+
+        .enlace_articulos_oscuro{
+            color: white;
+            text-decoration: none;
+        }
+
+        .enlace_articulos_oscuro:hover{
+            color: rgb(250, 100, 100);
+        }
+
+        .enlace_articulos{
+            color: rgb(73, 72, 72);
+            text-decoration: none;
+        }
+
+        .enlace_articulos:hover{
+            color: black;
+        }
+
+
         
     </style>
 
@@ -98,7 +118,7 @@
 
     <section id="experiencia">
         <div class="container-fluid align-items-center text-center d-flex flex-column mt-5">
-            <h2> Mi experiencia</h2>
+            <h2>Mi experiencia</h2>
             <div class="row">
                 <div class="col-md-4">
                     <div class="card card-hover h-100">
@@ -249,23 +269,56 @@
     <section id="articulos">
         <div class="container-fluid align-items-center text-center">
             <h2 class="mt-4">Artículos</h2>
-            <div class="card mt-5" style="background-color: antiquewhite;">
+            <div class="card mt-5 bg-dark text-white" style="background-color: antiquewhite; border-radius: 10px;">
                 <h5 class="card-title text-start mt-3 ms-2">Más recientes...</h5>
                 <div class="card-body">
-                    <ul class="list-group text-start lista">
-                        <li class="list-group-item"><a href="https://www.djangoproject.com/">Descubre más sobre Django</a></li>
-                        <li class="list-group-item"><a href="https://developer.mozilla.org/es/docs/Web/JavaScript">Descubre más sobre JS</a></li>
-                        <li class="list-group-item"><a href="https://flask.palletsprojects.com/en/stable/">Descubre más sobre Flask</a></li>
-                        <li class="list-group-item"><a href="https://www.docker.com/">Descubre más sobre Docker</a></li>
-                        <li class="list-group-item"><a href="https://github.com/lvazgar131">Descubre más sobre mí</a></li>
+                    <ul class="list-group text-start">
+                        <li class="list-group-item lista"><a href="https://www.djangoproject.com/" class="enlace_articulos">Descubre más sobre Django</a></li>
+                        <li class="list-group-item lista"><a href="https://developer.mozilla.org/es/docs/Web/JavaScript" class="enlace_articulos_oscuro">Descubre más sobre JS</a></li>
+                        <li class="list-group-item lista"><a href="https://flask.palletsprojects.com/en/stable/" class="enlace_articulos">Descubre más sobre Flask</a></li>
+                        <li class="list-group-item lista"><a href="https://www.docker.com/" class="enlace_articulos_oscuro">Descubre más sobre Docker</a></li>
+                        <li class="list-group-item lista"><a href="https://github.com/lvazgar131" class="enlace_articulos">Descubre más sobre mí</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
-
+    <br>
+    <br>
     <section id="testimonios">
+        <div class="container-fluid align-items-center text-center">
+            <h2>Testimonios</h2>
+            <p>Algunos de mis clientes han dejado sus testimonios, puedes verlos aquí...</p>
+            <div id="carouselExampleControls" class="carousel slide d-block mx-auto w-25" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../static/images/castor.png" alt="Pereira" class="img-fluid rounded-circle" style="width: 200px; height: 200px;" >
+                    </div>
 
+                    <div class="carousel-item">
+                        <img src="../static/images/loro.png" alt="Agutin" class="img-fluid rounded-circle" style="width: 200px; height: 200px;" >
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="../static/images/snipazo.png" alt="degref" class="img-fluid rounded-circle" style="width: 200px; height: 200px;" >
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="../static/images/stax.png" alt="stax" class="img-fluid rounded-circle" style="width: 200px; height: 200px;" >
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        
     </section>
 
     <section id="contacto">
